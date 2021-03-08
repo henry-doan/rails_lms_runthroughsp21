@@ -7,8 +7,8 @@ const Course = ({ course }) => {
         <div>
           <h1>{name}</h1>
           <hr />
-          <h6>Courses</h6>
           <a href={`/courses/${id}/enrollments`}>Enrollments</a>
+          <br />
           <a href={`/courses/${id}`} data-method="delete">
             Course delete
           </a>
